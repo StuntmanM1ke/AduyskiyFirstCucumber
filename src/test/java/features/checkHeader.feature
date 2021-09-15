@@ -1,7 +1,6 @@
-# new feature
-# Tags: optional
+Feature: Проверка заголовка
 
-Feature: A description
-
-  Scenario: A scenario
-    Given something..
+  @otlad
+  Scenario: Проверка BellIntegrator
+    Given перейти на сайт 'https://bellintegrator.ru/'
+    Then заголовок равен 'Bell Integrator'
