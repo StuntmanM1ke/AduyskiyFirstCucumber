@@ -1,4 +1,4 @@
-package ru.bellintegrator.test;
+package ru.open.test;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
